@@ -1,0 +1,28 @@
+{
+  "name": "back-scoretelcel-macropay",
+  "version": "1.0.0",
+  "description": "![Logo](./Macro.png) # back-scoretelcel-macropay",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.14.2",
+    "moment": "^2.29.4",
+    "serverless-http": "^2.7.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "serverless-offline": "^9.1.6"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy",
+    "debug": "nodemon app"
+  },
+  "keywords": [],
+  "author": "Oscar Fabian Romero Hernandez",
+  "license": "ISC"
+}
