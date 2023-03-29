@@ -28,3 +28,11 @@ Para desplegar el proyecto como función lambda se deberá realizar el siguiente
 ```bash
   npm run deploy
 ```
+
+## Local
+
+Para correr el proyecto en local se deberá realizar el siguiente comando:
+
+```bash
+  npm run debug
+```
